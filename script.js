@@ -55,9 +55,8 @@ function game(){
     for (i=0; i<5; i++){
         playerSel = prompt("Please enter your play", "Play!")
         roundResult = roundFight(playerSel, computerPlay());
-        if(roundResult === "Its a tie"){
+        if(roundResult === "Its a tie!"){
             console.log(roundResult)
-            break;
         }
         else
             if(roundResult === "You lose!"){
@@ -76,7 +75,7 @@ function game(){
         if(computerPoints<humanPoints)
             console.log("Human wins!")
         else
-            console.log("Its a tie!")
+            console.log("Its a tie, robots dont dominate us yet!")
 }
 
 /*const playerSelection = "rock";
