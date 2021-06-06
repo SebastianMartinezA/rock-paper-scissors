@@ -1,0 +1,74 @@
+
+.background{
+    background-image: url('images/1023.jpg');
+    background-attachment: fixed;
+    background-size: 100vw 100vh;
+}
+
+.boxing-arena{
+    width: 100%;
+    margin: 0%;
+}
+
+.robot{
+    float: right;
+    font-family: 'sans-serif';
+    font-size: 10vmin;
+    text-align: center;
+    margin-top: 25vh;
+}
+
+.human{
+    float: left;
+    font-family: 'sans-serif';
+    font-size: 10vmin;
+    text-align: center;
+    margin-top: 25vh;
+}
+
+.right{
+    float: right;
+    font-family: 'sans-serif';
+    font-size: 40vmin;
+    text-align: center;
+    margin-top: 10vh;
+    margin-right: 1vw;
+}
+
+.left{
+    float: left;
+    font-family: 'sans-serif';
+    font-size: 40vmin;
+    text-align: center;
+    margin-top: 10vh;
+    margin-left: 5vw;
+    margin-left: 1vw;
+}
+
+button{
+    border: .3rem solid black;
+    border-radius: .5rem;
+    margin: 1rem;
+    font-size: 1.5rem;
+    padding: 1rem .5rem;
+    transition: all .07s ease;
+    width: 10rem;
+    text-align: center;
+    color: white;
+    background: rgba(0,0,0,0.4);
+    text-shadow: 0 0 0.5rem black;
+}
+
+button:hover{
+    transform: scale(1.2);
+    box-shadow: 0 0 1rem grey;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.buttons-container{
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%, -50%);
+}
